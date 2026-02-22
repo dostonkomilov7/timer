@@ -9,6 +9,7 @@ let second_count = Number(localStorage.getItem("second") || 0);
 let millisec_count = Number(localStorage.getItem("millisec") || 0);
 let interval = null;
 
+//start
 start_btn.addEventListener("click", () => {
     start_btn.style.display = "none";
     pause_btn.style.display = "block";
